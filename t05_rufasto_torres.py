@@ -9,5 +9,15 @@ print("variable promedio de un alumno es:",type_promedio_de_un_alumno)
 print("variable es float?:",promedio_de_un_alumno_es_float)
 print("variable es str?:",promedio_de_un_alumno_es_str)
 
+#EJERCICIO02
+IMC_con_calificacion_sobrepeso=28.8966
+type_IMC_con_calificacion_sobrepeso=type(IMC_con_calificacion_sobrepeso)
+
+IMC_con_calificacion_sobrepeso_es_float=isinstance(IMC_con_calificacion_sobrepeso,float)
+IMC_con_calificacion_sobrepeso_es_bool=isinstance(IMC_con_calificacion_sobrepeso,bool)
+
+print("variable IMC con calificacion sobrepeso es:",type_IMC_con_calificacion_sobrepeso)
+print("variable es float?:",IMC_con_calificacion_sobrepeso_es_float)
+print("variable es bool?:",IMC_con_calificacion_sobrepeso_es_bool)
 
 
