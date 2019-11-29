@@ -20,4 +20,16 @@ print("variable IMC con calificacion sobrepeso es:",type_IMC_con_calificacion_so
 print("variable es float?:",IMC_con_calificacion_sobrepeso_es_float)
 print("variable es int?:",IMC_con_calificacion_sobrepeso_es_int)
 
+#EJERCICIO03
+IMC_con_calificacion_delgadez_severa=15.0342
+type_IMC_con_calificacion_delgadez_severa=type(IMC_con_calificacion_delgadez_severa)
+
+IMC_con_calificacion_delgadez_severa_es_float=isinstance(IMC_con_calificacion_delgadez_severa,float)
+IMC_con_calificacion_delgadez_severa_es_bool=isinstance(IMC_con_calificacion_delgadez_severa,int)
+
+print("variable IMC con calificacion delgadez severa es:",type_IMC_con_calificacion_delgadez_severa)
+print("variable es float?:",IMC_con_calificacion_delgadez_severa_es_float)
+print("variable es bool?:",IMC_con_calificacion_delgadez_severa_es_bool)
+
+
 
